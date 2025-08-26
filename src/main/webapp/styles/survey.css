@@ -1,0 +1,73 @@
+/* The styles for the elements */
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+    display:flex;
+    justify-content:center;
+    background:#fff8e1;
+}
+h1 {     
+    font-size: 160%;
+    color: red;
+    margin-bottom: .5em;    
+}
+h2 {     
+    font-size: 130%;
+    color: red;
+    margin-bottom: .5em;    
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    padding-top: .3em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], input[type="date"] {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+    box-sizing: border-box;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+
+/* The styles for a table */
+table {
+    border: 1px solid black;
+    border-collapse: collapse;   
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.right {
+    text-align: right;
+}
+.button {
+    display: block;      
+    margin: 1em auto;       /* căn giữa ngang và cách trên-dưới */
+    padding: 1em 2em;       /* tăng kích thước nút */
+    font-size: 1.2em;       /* chữ lớn hơn */
+    background-color: red;  
+    color: white;           /* chữ màu trắng cho nổi bật */
+    border: none;           /* bỏ viền mặc định */
+    border-radius: 5px;     /* bo tròn nút */
+    cursor: pointer;        /* con trỏ chuột khi hover */
+}
